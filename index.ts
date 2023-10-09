@@ -8,7 +8,7 @@ app.use(cors());
 const port = 3000;
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello World!');
+    res.send('CodePipeline is working!');
 });
 
 app.get('/api', (req: Request, res: Response) => {
